@@ -9,11 +9,7 @@ def mul_func(n1, n2) :
     return  n1 * n2
 
 def div_func(n1, n2) :
-    return  n1 / n2
-
-def mul2_func(n1, n2) :
-    return n1*n2
-
+    return  n1 * n2
 
 
 # 전역 변수부
@@ -32,8 +28,5 @@ print(num1, '*', num2, '=', res)
 
 res = div_func(num1, num2)
 print(num1, '/', num2, '=', res)
-
-res = mul_func(num1, num2)
-print(num1, '*', num2, '=', res)
 
 
